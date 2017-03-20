@@ -7,17 +7,18 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         <form method="GET">
-                            Soy de: {!! $selectFrom !!} y viaje a: {!! $selectTo !!} <button class="btn-link btn btn-sm" type="submit">cambiar</button>
+                            <label for="from">De donde sos?</label> {!! $selectFrom !!} <label for="to">De donde sos?</label> {!! $selectTo !!} <button class="btn-link btn btn-sm" type="submit">cambiar</button>
                         </form>
                     </div>
 
                     <div class="panel-body">
-                        <h1>Introduzca el importe en la moneda de {{ $to['country'] }}
-                        </h1>
+                        <label for="toAmount">Introduzca el importe en la moneda de {{ $to['country'] }}</label>
                         <div>
+                            <form action="javascript: false;">
                             <input type="number" class="form-control input-lg" id="toAmount" placeholder="Ejemplo 1000 {{ $to['currency'] }}">
-                            <h3 id="fromResult"></h3>
-                            <h4 id="inCentralCurrency"></h4>
+                            </form>
+                            <h3 id="fromResult" style="color: green"></h3>
+                            <h4 id="inCentralCurrency" style="color: red"></h4>
                         </div>
                     </div>
                 </div>
