@@ -1,4 +1,4 @@
-I bu outside  [![Build Status](https://travis-ci.org/megui88/buy-outside.svg?branch=master)](https://travis-ci.com/megui88/buy-outside)
+I buy outside  [![Build Status](https://travis-ci.org/megui88/buy-outside.svg?branch=other)](https://travis-ci.com/megui88/buy-outside)
 =======
 
 [http://www.comproafuera.com.ar/](http://www.comproafuera.com.ar/)
